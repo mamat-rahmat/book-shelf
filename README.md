@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Project - Jabar Digital Academy
 
-## Getting Started
+Proyek ini dibuat untuk memenuhi tugas **Jabar Digital Academy** pertemuan ke-6
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[https://book-shelf-mu-one.vercel.app/](https://book-shelf-mu-one.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 Tugas Pertemuan Ke-6
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Persyaratan yang Dipenuhi:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ✅ Menggunakan Redux sebagai state management global.
+- ✅ Memiliki minimal 2 komponen berbeda (BookForm & BookList) yang:
+    - Mengakses state global menggunakan useSelector
+    - Mengubah state global menggunakan useDispatch
+- ✅ Komponen BookForm melakukan update atau menambahkan data ke store.
+- ✅ Komponen BookList membaca data tersebut dan menampilkannya di UI.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Teknologi yang Digunakan
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js 15** - React framework
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **Redux** - State Management
+- **Vercel** - Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Cara Menjalankan Project
 
-## Deploy on Vercel
+1. **Clone repository**
+   ```bash
+   git clone <repository-url>
+   cd <project-folder>
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Jalankan development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Buka browser**
+   ```
+   http://localhost:3000
+   ```
+
+## 👨‍💻 Pengembang
+
+Dibuat oleh **Mamat Rahmat** untuk tugas Jabar Digital Academy
+
+*Proyek ini dikembangkan sebagai bagian dari program Jabar Digital Academy untuk mempelajari Next.js dan pengembangan web modern.*
